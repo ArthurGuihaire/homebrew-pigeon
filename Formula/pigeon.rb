@@ -1,25 +1,25 @@
 class Pigeon < Formula
   desc "The pigeon application"
   homepage "https://github.com/ArthurGuihaire/pigeon"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.3/pigeon-aarch64-apple-darwin.tar.xz"
-      sha256 "2487536f147e5d06b91e082df6a1c16d22bff042c4eeaaf1bda9b45dcfeac931"
+      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.4/pigeon-aarch64-apple-darwin.tar.xz"
+      sha256 "070dd7ad5d99c51129e85766d33bcd19fc4bd871c70538ab04a319d0499daa41"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.3/pigeon-x86_64-apple-darwin.tar.xz"
-      sha256 "a86be496deb5b0991d287fb18a10cdfdfd5fa37d162418245e1d9df6a6704971"
+      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.4/pigeon-x86_64-apple-darwin.tar.xz"
+      sha256 "911bbc872999c2872e84fed82390a7e4b4a74b3a3336ee53810a7e939f1ebb53"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.3/pigeon-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1d3ed400eb6ff90882137e3dae4f6e641b629eb48b0bab9235eaf079f80f5fcf"
+      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.4/pigeon-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d2d80d4e9b35b597c0bd3e40304aadd8b5ad4187f4f6948415abed22d0142236"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.3/pigeon-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6ff4e13c32f578af9c8904a91f1616794b3f80623deefa2d77f8e4d665204f90"
+      url "https://github.com/ArthurGuihaire/pigeon/releases/download/v0.1.4/pigeon-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "56286c8a2776192026a6a586687922b55ecb938fa8574afd9ffa509538c202bc"
     end
   end
 
